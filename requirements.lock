@@ -6,127 +6,89 @@
 #   features: []
 #   all-features: false
 #   with-sources: false
+#   generate-hashes: false
 
 -e file:.
-aiohttp==3.9.5
-    # via fsspec
-aiosignal==1.3.1
-    # via aiohttp
-antlr4-python3-runtime==4.9.3
-    # via hydra-core
-    # via omegaconf
-async-timeout==4.0.3
-    # via aiohttp
-attrs==23.2.0
-    # via aiohttp
-certifi==2022.12.7
-    # via requests
-charset-normalizer==2.1.1
-    # via requests
-filelock==3.9.0
-    # via torch
-    # via triton
-frozenlist==1.4.1
-    # via aiohttp
-    # via aiosignal
-fsspec==2023.4.0
-    # via lightning
-    # via pytorch-lightning
-    # via torch
-hydra-core==1.3.2
-    # via research-template
-idna==3.4
-    # via requests
-    # via yarl
-jinja2==3.1.2
-    # via torch
-joblib==1.4.0
-    # via research-template
-    # via scikit-learn
-lightning==2.2.3
-    # via research-template
-lightning-utilities==0.11.2
-    # via lightning
-    # via pytorch-lightning
-    # via torchmetrics
-loguru==0.7.2
-    # via research-template
-markupsafe==2.1.3
-    # via jinja2
-mpmath==1.3.0
-    # via sympy
-multidict==6.0.5
-    # via aiohttp
-    # via yarl
-networkx==3.2.1
-    # via torch
-numpy==1.26.3
-    # via lightning
+appnope==0.1.4
+    # via ipykernel
+asttokens==2.4.1
+    # via stack-data
+comm==0.2.2
+    # via ipykernel
+debugpy==1.8.2
+    # via ipykernel
+decorator==5.1.1
+    # via ipython
+exceptiongroup==1.2.2
+    # via ipython
+executing==2.0.1
+    # via stack-data
+ipykernel==6.29.5
+    # via python-template
+ipython==8.26.0
+    # via ipykernel
+jedi==0.19.1
+    # via ipython
+jupyter-client==8.6.2
+    # via ipykernel
+jupyter-core==5.7.2
+    # via ipykernel
+    # via jupyter-client
+matplotlib-inline==0.1.7
+    # via ipykernel
+    # via ipython
+nest-asyncio==1.6.0
+    # via ipykernel
+numpy==2.0.1
     # via pandas
-    # via pytorch-lightning
-    # via research-template
-    # via scikit-learn
-    # via scipy
-    # via torchmetrics
-omegaconf==2.3.0
-    # via hydra-core
-packaging==22.0
-    # via hydra-core
-    # via lightning
-    # via lightning-utilities
-    # via pytorch-lightning
-    # via torchmetrics
+packaging==24.1
+    # via ipykernel
 pandas==2.2.2
-    # via research-template
-polars==0.20.21
-    # via research-template
+    # via python-template
+parso==0.8.4
+    # via jedi
+pexpect==4.9.0
+    # via ipython
+platformdirs==4.2.2
+    # via jupyter-core
+prompt-toolkit==3.0.47
+    # via ipython
+psutil==6.0.0
+    # via ipykernel
+ptyprocess==0.7.0
+    # via pexpect
+pure-eval==0.2.3
+    # via stack-data
+pygments==2.18.0
+    # via ipython
 python-dateutil==2.9.0.post0
+    # via jupyter-client
     # via pandas
-pytorch-lightning==2.2.2
-    # via lightning
 pytz==2024.1
     # via pandas
-pyyaml==6.0.1
-    # via lightning
-    # via omegaconf
-    # via pytorch-lightning
-requests==2.28.1
-    # via fsspec
-scikit-learn==1.4.2
-    # via research-template
-scipy==1.13.0
-    # via research-template
-    # via scikit-learn
-setuptools==69.5.1
-    # via lightning-utilities
+pyzmq==26.0.3
+    # via ipykernel
+    # via jupyter-client
+ruff==0.5.5
+    # via python-template
 six==1.16.0
+    # via asttokens
     # via python-dateutil
-sympy==1.12
-    # via torch
-threadpoolctl==3.4.0
-    # via scikit-learn
-torch==2.1.1+cu121
-    # via lightning
-    # via pytorch-lightning
-    # via research-template
-    # via torchmetrics
-torchmetrics==1.0.3
-    # via lightning
-    # via pytorch-lightning
-tqdm==4.64.1
-    # via lightning
-    # via pytorch-lightning
-    # via research-template
-triton==2.1.0
-    # via torch
-typing-extensions==4.8.0
-    # via lightning
-    # via lightning-utilities
-    # via pytorch-lightning
-    # via torch
+stack-data==0.6.3
+    # via ipython
+tornado==6.4.1
+    # via ipykernel
+    # via jupyter-client
+traitlets==5.14.3
+    # via comm
+    # via ipykernel
+    # via ipython
+    # via jupyter-client
+    # via jupyter-core
+    # via matplotlib-inline
+typing-extensions==4.12.2
+    # via ipython
 tzdata==2024.1
     # via pandas
-urllib3==1.26.13
-    # via requests
-yarl==1.9.4
-    # via aiohttp
+wcwidth==0.2.13
+    # via prompt-toolkit
