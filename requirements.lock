@@ -19,8 +19,6 @@ debugpy==1.8.2
     # via ipykernel
 decorator==5.1.1
     # via ipython
-exceptiongroup==1.2.2
-    # via ipython
 executing==2.0.1
     # via stack-data
 ipykernel==6.29.5
@@ -86,8 +84,6 @@ traitlets==5.14.3
     # via jupyter-client
     # via jupyter-core
     # via matplotlib-inline
-typing-extensions==4.12.2
-    # via ipython
 tzdata==2024.1
     # via pandas
 wcwidth==0.2.13
